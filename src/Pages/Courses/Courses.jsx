@@ -23,7 +23,7 @@ const Courses = () => {
 
 
     return (
-        <div>
+        <div className='container mx-10'>
          <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
         <TabList>
             <Tab>Complete course 1</Tab>
